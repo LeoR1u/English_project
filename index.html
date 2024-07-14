@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Header Fijo y Secciones Ocultables</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="fixed-header">
+        <label class="top">Virtual and Augmented Reality</label>
+        <br>
+        <br>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="#seccion1" data-seccion="seccion1">-- Article --</a></li>
+                <li><a href="#seccion2" data-seccion="seccion2">--  Questions --</a></li>
+                <li><a href="#seccion3" data-seccion="seccion3">--  Excersice --</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <section id="seccion1" class="seccion visible">
+            <div>
+                <br>
+                <br>
+                <h2>Virtual and Augmented Reality: Transforming Our World</h2>
+                <p>
+                    Virtual Reality (VR) and Augmented Reality (AR) have revolutionized the way we interact with the digital world.
+                    These technologies have been developed and perfected over the past decades,
+                    but in recent years they have reached a peak in their application and accessibility.
+                </p>
+                <br>
+                <h3>Evolution of Virtual Reality</h3>
+                <p>
+                    Virtual Reality, since its inception in the 1960s, has evolved significantly.
+                    The early experiments were rudimentary and limited in terms of immersion. However,
+                    with the advancement of technology, we have seen impressive progress.
+                    Companies like Oculus and HTC have launched devices that offer unprecedented immersive experiences.
+                    They have created virtual worlds where users can interact in ways that were once only imaginable in science fiction.
+                </p>
+                <p>
+                    Since the emergence of modern VR devices, games and educational applications have flourished.
+                    For example, medical students have been able to practice surgeries in a virtual environment before facing a real operation.
+                    This ability to simulate complex scenarios has changed the way we learn and experience the world.
+                </p>
+                <br>
+                <h3>Augmented Reality in Our Lives</h3>
+                <p>Augmented Reality, on the other hand, overlays digital information onto the real world.
+                    One of the most well-known applications of AR has been Pokémon Go, which captured the attention of millions of users around the world.
+                    Since its release, there has been a growing interest in integrating AR into various industries.
+                </p>
+                <p>
+                    Companies have implemented AR to enhance consumer experiences. IKEA, for instance,
+                    has launched an app that allows users to visualize how furniture would look in their homes before purchasing it.
+                    Additionally, in the healthcare sector, doctors have used AR to gain a clearer view of internal body structures during surgeries.
+                </p>
+                <br>
+                <h3>Impact and Future</h3>
+                <p>
+                    So far, both VR and AR have had a significant impact on our daily lives.
+                    They have improved education, medicine, entertainment, and many other fields. As these technologies continue to advance,
+                    it is likely that we will see even more innovations and applications.
+                </p>
+                <p>
+                    In summary, virtual and augmented reality have transformed our interaction with the digital world.
+                    They have opened up new possibilities and changed the way we perceive and experience our environment.
+                    It is exciting to think about the future applications of these technologies and how they will continue to shape our future.
+                </p>
+                <hr>
+            </div>
+        </section>
+        <section id="seccion2" class="seccion oculto">
+            <div class="container">
+                <br>
+                <br>
+                <br>
+        <h2>Virtual and Augmented Reality: Questions</h2>
+
+        <div class="question">
+            <h3>Question 1</h3>
+            <p>What has been the primary impact of VR and AR on the way we interact with the digital world?</p>
+            <label><input type="radio" name="q1" value="a"> They have revolutionized it.</label><br>
+            <label><input type="radio" name="q1" value="b"> They have limited it.</label><br>
+            <label><input type="radio" name="q1" value="c"> They have had no impact.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 2</h3>
+            <p>How has Virtual Reality evolved since its inception in the 1960s?</p>
+            <label><input type="radio" name="q2" value="a"> It has become more limited.</label><br>
+            <label><input type="radio" name="q2" value="b"> It has significantly advanced.</label><br>
+            <label><input type="radio" name="q2" value="c"> It has remained the same.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 3</h3>
+            <p>Which companies have launched devices that offer immersive VR experiences?</p>
+            <label><input type="radio" name="q3" value="a"> Sony and Microsoft.</label><br>
+            <label><input type="radio" name="q3" value="b"> Oculus and HTC.</label><br>
+            <label><input type="radio" name="q3" value="c"> Apple and Google.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 4</h3>
+            <p>What has been one of the significant applications of VR in education?</p>
+            <label><input type="radio" name="q4" value="a"> Teaching history.</label><br>
+            <label><input type="radio" name="q4" value="b"> Learning new languages.</label><br>
+            <label><input type="radio" name="q4" value="c"> Practicing surgeries.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 5</h3>
+            <p>What does Augmented Reality (AR) do?</p>
+            <label><input type="radio" name="q5" value="a"> Overlays digital information onto the real world.</label><br>
+            <label><input type="radio" name="q5" value="b"> Creates entirely virtual environments.</label><br>
+            <label><input type="radio" name="q5" value="c"> Replaces the real world.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 6</h3>
+            <p>Which popular AR application captured the attention of millions worldwide?</p>
+            <label><input type="radio" name="q6" value="a"> Minecraft Earth.</label><br>
+            <label><input type="radio" name="q6" value="b"> Pokémon Go.</label><br>
+            <label><input type="radio" name="q6" value="c"> Snapchat.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 7</h3>
+            <p>How has IKEA used AR technology?</p>
+            <label><input type="radio" name="q7" value="a"> To create virtual shopping experiences.</label><br>
+            <label><input type="radio" name="q7" value="b"> To train employees.</label><br>
+            <label><input type="radio" name="q7" value="c"> To visualize furniture in customers' homes.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 8</h3>
+            <p>How has AR been utilized in the healthcare sector?</p>
+            <label><input type="radio" name="q8" value="a"> To teach medical theory.</label><br>
+            <label><input type="radio" name="q8" value="b"> To view internal body structures during surgeries.</label><br>
+            <label><input type="radio" name="q8" value="c"> To diagnose illnesses remotely.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 9</h3>
+            <p>What impact have VR and AR had on our daily lives so far?</p>
+            <label><input type="radio" name="q9" value="a"> Significant impact.</label><br>
+            <label><input type="radio" name="q9" value="b"> Little impact.</label><br>
+            <label><input type="radio" name="q9" value="c"> No impact.</label>
+        </div>
+                <br>
+
+        <div class="question">
+            <h3>Question 10</h3>
+            <p>What is exciting about the future of VR and AR technologies?</p>
+            <label><input type="radio" name="q10" value="a"> They will become obsolete.</label><br>
+            <label><input type="radio" name="q10" value="b"> They will remain the same.</label><br>
+            <label><input type="radio" name="q10" value="c"> They will continue to innovate and create new applications.</label>
+        </div>
+                <br>
+
+        <button onclick="checkAnswers()">Submit</button>
+
+        <div id="result" class="result"></div>
+    </div>
+        </section>
+        <section id="seccion3" class="seccion oculto">
+           <form id="quizForm">
+        <p>1. Virtual Reality<select id="q1">
+            <option value="-">-</option>
+            <option value="have revolutionized">have revolutionized</option>
+            <option value="revolutionized">revolutionized</option>
+        </select>how we interact with digital world.</p>
+
+        <p>2. The early experiments<select id="q2">
+            <option value="-">-</option>
+            <option value="were">were</option>
+            <option value="was">was</option>
+        </select>rudimentary and limited.</p>
+
+        <p>3. games and education applications<select id="q3">
+            <option value="-">-</option>
+            <option value="have flourished">have flourished</option>
+            <option value="flourished">flourished</option>
+        </select>Mocha.</p>
+
+        <p>4. <select id="q4">
+            <option value="-">-</option>
+            <option value="For">For</option>
+            <option value="Since">Since</option>
+        </select>its release, there has been growing interest.</p>
+
+        <p>5. Companies<select id="q5">
+            <option value="-">-</option>
+            <option value="implemented">implemented</option>
+            <option value="have implemented">have implemented</option>
+        </select>AR to enhance consumer experience.</p>
+        <button type="button" onclick="checkAnswers()">Check Answers</button>
+    </form>
+
+    <script>
+        function checkAnswers() {
+            const answers = {
+                q1: "have revolutionized",
+                q2: "were",
+                q3: "have flourished",
+                q4: "Since",
+                q5: "have implemented"
+            };
+
+            for (let key in answers) {
+                const selectElement = document.getElementById(key);
+                if (selectElement.value === answers[key]) {
+                    selectElement.classList.add("correct");
+                }
+            }
+        }
+    </script>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function checkAnswers() {
+            const correctAnswers = {
+                q1: 'a',
+                q2: 'b',
+                q3: 'b',
+                q4: 'c',
+                q5: 'a',
+                q6: 'b',
+                q7: 'c',
+                q8: 'b',
+                q9: 'a',
+                q10: 'c'
+            };
+            let score = 0;
+            for (const [question, answer] of Object.entries(correctAnswers)) {
+                const selected = document.querySelector(input[name="${question}"]:checked);
+                if (selected && selected.value === answer) {
+                    score++;
+                }
+            }
+            const result = document.getElementById('result');
+            result.textContent = You have answered ${score} out of 10 questions correctly.;
+            result.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

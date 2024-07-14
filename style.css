@@ -1,0 +1,83 @@
+p {
+     padding-left: 150px ;
+    padding-right: 150px;
+}
+
+h3:hover {
+    text-shadow: 2px 1px;
+}
+
+h2:hover {
+    text-shadow: 2px 1px;
+}
+
+.top {
+    padding-top: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 180%;
+    font-family: "Arial black", serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.5s;
+}
+.top:hover {
+    font-size: 220%;
+}
+
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+.fixed-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fixed-header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.fixed-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2 {
+    display: contents;
+    text-align: justify;
+}
+h3 {
+    display: contents;
+    text-align: justify;
+}
+.main {
+    margin-top: 100px; /* Ajusta este margen según la altura de tu header fijo */
+    width: 100%;
+}
+.seccion {
+    background-color: #ffffff;
+    color: black;
+    display: none;
+}
+.seccion.visible {
+    display: block;
+}
+.oculto {
+    display: none;
+}
+        .correct {
+            background-color: green;
+        }
